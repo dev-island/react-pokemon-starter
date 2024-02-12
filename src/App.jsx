@@ -16,6 +16,7 @@ function App() {
           pokidex.map((pokemon) => {
             return (
               <PokemonCard
+                key={pokemon.name}
                 name={pokemon.name}
                 icon={pokemon.icon}
                 typeIcon={pokemon.typeIcon}
