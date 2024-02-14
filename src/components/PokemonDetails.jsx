@@ -21,7 +21,7 @@ export default function PokemonDetails({ name, icon, type, description }) {
           <div className="pokedex-screen-container">
             <div className="pokedex-screen screen-large">
               <p>{name}</p>
-              <p className="info-text type-text">Type: {type}</p>
+              <p className="type-text">Type: {type}</p>
 
               <p className="info-text">{description}</p>
             </div>
